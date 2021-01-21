@@ -280,7 +280,7 @@ body {
 
     &__form {
         margin: 10px auto;
-        height: 65vh;
+        min-height: 65vh;
         display: flex;
         justify-content: space-between;
         flex-flow: column nowrap;
@@ -315,11 +315,12 @@ body {
         border-bottom: 2px solid $second-color;
         cursor: pointer;
         transition: .2s .1s ease-in-out;
+        background-color: darken($base-color,10%);
 
         
         &:hover{
             transform: scale(1.05);
-            background-color: darken($base-color,5%);
+            background-color: darken($base-color,15%);
         }
     }
 

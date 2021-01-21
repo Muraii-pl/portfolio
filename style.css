@@ -340,7 +340,7 @@ body {
 
 .contact__form {
   margin: 10px auto;
-  height: 65vh;
+  min-height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,12 +382,13 @@ body {
   cursor: pointer;
   -webkit-transition: .2s .1s ease-in-out;
   transition: .2s .1s ease-in-out;
+  background-color: #cccccc;
 }
 
 .contact__button:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  background-color: #d9d9d9;
+  background-color: #bfbfbf;
 }
 
 .footer {
