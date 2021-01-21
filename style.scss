@@ -274,7 +274,7 @@ body {
 
 
 .contact {
-    min-height: 100vh;
+    min-height: 65vh;
     padding: 20px;
 
 
@@ -292,6 +292,9 @@ body {
         border-bottom: 1px solid $second-color;
         padding: 10px;
         font-size: 1.2em;
+        &:focus{
+            margin-top: 10px;
+        }
     }
 
 
@@ -302,6 +305,9 @@ body {
         resize: none;
         border: none;
         border-bottom: 1px solid $second-color;
+        &:focus{
+            margin-top: 10px;
+        }
     }
 
     &__button{
@@ -331,6 +337,7 @@ body {
     justify-content: center;
     padding: 10px;
     min-height: 42px;
+    margin-top: 10px;
 }
 
 

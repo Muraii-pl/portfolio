@@ -334,7 +334,7 @@ body {
 }
 
 .contact {
-  min-height: 100vh;
+  min-height: 65vh;
   padding: 20px;
 }
 
@@ -361,6 +361,10 @@ body {
   font-size: 1.2em;
 }
 
+.contact__input:focus {
+  margin-top: 10px;
+}
+
 .contact__msg {
   padding: 10px;
   height: 240px;
@@ -368,6 +372,10 @@ body {
   resize: none;
   border: none;
   border-bottom: 1px solid #148aff;
+}
+
+.contact__msg:focus {
+  margin-top: 10px;
 }
 
 .contact__button {
@@ -400,6 +408,7 @@ body {
           justify-content: center;
   padding: 10px;
   min-height: 42px;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 1244px) {
