@@ -107,8 +107,9 @@ body {
     }
 
     &--active {
-
+        z-index: 3;
         transform: translateX(300px);
+        position: fixed;
     }
 
     &--active &__inner {
@@ -126,7 +127,8 @@ body {
 }
 
 .navigation {
-    position: absolute;
+    position: fixed;
+    z-index: 2;
     height: 100vh;
     width: 100%;
     background-color: $base-color;
@@ -272,7 +274,7 @@ body {
 
 
 .contact {
-    height: 75vh;
+    min-height: 75vh;
     padding: 20px;
 
 
@@ -281,7 +283,6 @@ body {
         height: 65vh;
         display: flex;
         justify-content: space-between;
-        //align-items: center;
         flex-flow: column nowrap;
     }
 

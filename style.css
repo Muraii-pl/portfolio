@@ -118,8 +118,10 @@ body {
 }
 
 .hamburger--active {
+  z-index: 3;
   -webkit-transform: translateX(300px);
           transform: translateX(300px);
+  position: fixed;
 }
 
 .hamburger--active .hamburger__inner {
@@ -137,7 +139,8 @@ body {
 }
 
 .navigation {
-  position: absolute;
+  position: fixed;
+  z-index: 2;
   height: 100vh;
   width: 100%;
   background-color: #e6e6e6;
@@ -331,7 +334,7 @@ body {
 }
 
 .contact {
-  height: 75vh;
+  min-height: 75vh;
   padding: 20px;
 }
 
