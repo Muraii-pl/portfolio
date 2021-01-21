@@ -306,7 +306,7 @@ body {
 
     &__button{
         width: 320px;
-        height: 32px;
+        min-height: 32px;
         margin: 0 auto;
         font-size: 1.05em;
         background:none;
