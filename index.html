@@ -40,10 +40,16 @@
             <h1 class="top_wrapper__main ">Cześć, jestem Mateusz</h1>
             <h3 class="top_wrapper__second">Jestem fronend developerem</h3>
         </header>
+
+        <section class="top__wrapper__social social">
+            <a href="https://www.facebook.com/rallyMuraii" class="social__link"><img src="/img/facebook-2.svg" alt="facebook" class="social__img"></a>
+            <a href="https://github.com/Muraii-pl" class="social__link"><img src="/img/github-icon-1.svg" alt="github" class="social__img"></a>
+            <a href="www.linkedin.com/in/mateusz-głowania-120935204" class="social__link"><img src="/img/linkedin-icon-1.svg" alt="linkedin" class="social__img"></a>
+        </section>
     </div>
 
     <div class="about_me" id="about_me">
-        <h1 class="about_me__header">O Mnie!</h1>
+        <h2 class="about_me__header header_section">O Mnie!</h2>
         <section class="about_me__sections">
             <h4 class="about_me__header_section">Kim Jestem.</h4>
             <p class="about_me__text">
@@ -67,32 +73,59 @@
             </p>
         </section>
         <section class="about_me__sections">
-            <h4 class="about_me__header_section">Moje Umiejętności.</h4>
-            <article class="about_me__skills">
-                <p class="about_me__text">HTML:</p><div class="about_me__progress">
-                    <div class="about_me__progress--value">75%</div>
-                </div>
-            </article>
-            <article class="about_me__skills">
-                <p class="about_me__text">CSS:</p><div class="about_me__progress">
-                    <div class="about_me__progress--value">55%</div>
-                </div>
-            </article>
-            <article class="about_me__skills">
-                <p class="about_me__text">JavaScript:</p>
-                <div class="about_me__progress">
-                    <div class="about_me__progress--value ">35%</div>
-                </div>
-            </article>
-            <article class="about_me__skills">
-                <p class="about_me__text">GIT:</p>
-                <div class="about_me__progress">
-                    <div class="about_me__progress--value">55%</div>
-                </div>
+            <h4 class="about_me__header_section">Technologie.</h4>
+            <article class="about_me__technology">
+                <figure class="about_me__figure">
+                    <img src="img/html-5.svg" alt="HTML5" class="about_me__icon">
+                    <figcaption class="about_me__figcaption">HTML5</figcaption>
+                </figure>
+                <figure class="about_me__figure">
+                    <img src="img/sass-1.svg" alt="SASS/SCSS" class="about_me__icon">
+                    <figcaption class="about_me__figcaption">SASS/SCSS</figcaption>
+                </figure>
+
+                <figure class="about_me__figure">
+                    <img src="img/javascript-4.svg" alt="JavaScript" class="about_me__icon">
+                    <figcaption class="about_me__figcaption">JavaScript</figcaption>
+                </figure>
+
+                <figure class="about_me__figure">
+                    <img src="img/github-icon-1.svg" alt="GIT" class="about_me__icon">
+                    <figcaption class="about_me__figcaption">GIT</figcaption>
+                </figure>
             </article>
         </section>
     </div>
+    <div class="myproject" id="myproject">
+        <h2 class="my_project__header header_section">Moje Projekty</h2>
+        <div class="myproject__items">
+            <img src="./img/Rallygion.jpg" alt="Rallygion Project" class="myproject__img">
+            <a href="https://github.com/Muraii-pl/rally_showpage" class="myproject__link">Link do githuba</a>
+            <a href="https://muraii-pl.github.io/rally_showpage/" class="myproject__link">Link do projektu</a>
+        </div>
+        <div class="myproject__items">
+            <img src="./img/Rallygion.jpg" alt="Rallygion Project" class="myproject__img">
+            <a href="https://github.com/Muraii-pl/rally_showpage" class="myproject__link">Link do githuba</a>
+            <a href="https://muraii-pl.github.io/rally_showpage/" class="myproject__link">Link do projektu</a>
+        </div>
+    </div>
 
+    <div class="contact" id="contact">
+        <h2 class="contact__header header_section">Kontakt</h2>
+        <form class="contact__form">
+            <input type="text" class="contact__input" name="name" placeholder="Imię">
+            <input type="text" class="contact__input" name="surname" placeholder="Nazwisko">
+            <input type="email" class="contact__input" name="email" placeholder="E-mail">
+            <textarea class="contact__msg" name="msg" placeholder="Napisz do mnie!"></textarea>
+            <button type="submit" class="contact__button">Wyślij</button>
+
+        </form>
+
+
+
+    </div>
+
+    <footer class="footer">Mateusz Głowania&copy 2021</footer>
 
 </body>
 <script src="index.js"></script>
