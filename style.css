@@ -344,9 +344,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
@@ -359,9 +356,6 @@ body {
   border-bottom: 1px solid #148aff;
   padding: 10px;
   font-size: 1.2em;
-}
-
-.contact__input:focus {
   margin-top: 10px;
 }
 
@@ -372,16 +366,13 @@ body {
   resize: none;
   border: none;
   border-bottom: 1px solid #148aff;
-}
-
-.contact__msg:focus {
   margin-top: 10px;
 }
 
 .contact__button {
   width: 320px;
   min-height: 32px;
-  margin: 0 auto;
+  margin: 10 auto;
   font-size: 1.05em;
   background: none;
   border: none;

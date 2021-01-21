@@ -282,7 +282,6 @@ body {
         margin: 10px auto;
         min-height: 65vh;
         display: flex;
-        justify-content: space-between;
         flex-flow: column nowrap;
     }
 
@@ -292,9 +291,7 @@ body {
         border-bottom: 1px solid $second-color;
         padding: 10px;
         font-size: 1.2em;
-        &:focus{
-            margin-top: 10px;
-        }
+        margin-top: 10px;
     }
 
 
@@ -305,15 +302,13 @@ body {
         resize: none;
         border: none;
         border-bottom: 1px solid $second-color;
-        &:focus{
-            margin-top: 10px;
-        }
+        margin-top: 10px;
     }
 
     &__button{
         width: 320px;
         min-height: 32px;
-        margin: 0 auto;
+        margin: 10 auto;
         font-size: 1.05em;
         background:none;
         border: none;
