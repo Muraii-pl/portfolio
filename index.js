@@ -6,14 +6,15 @@ const handleClick = () =>{
 };
 hamburger.addEventListener('click',handleClick);
 
-const progress = document.querySelectorAll('.about_me__progress--value');
-progress.forEach((element) => {
-    element.style.width = element.innerText;
-    if(element.style.width == "0%"){
-        element.style.background = "#fff";
-        element.style.color = "#000"
-        element.style.width = "100%";
-        element.style.justifyContent = "flex-start"
-        element.style.paddingLeft = "5px"
-    }
-});
+// const progress = document.querySelectorAll('.about_me__progress--value');
+// progress.forEach((element) => {
+//     element.style.width = element.innerText;
+//     if(element.style.width == "0%"){
+//         element.style.background = "#fff";
+//         element.style.color = "#000"
+//         element.style.width = "100%";
+//         element.style.justifyContent = "flex-start"
+//         element.style.paddingLeft = "5px"
+//     }
+// });
+
